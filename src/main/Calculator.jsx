@@ -104,15 +104,19 @@ export default class Calculator extends Component {
         <button className='button' onClick={(e) => this.addDigit(8)}>
           8
         </button>
+        <button className='button' onClick={(e) => this.addDigit(8)}>
+          8
+        </button>
         <button className='button' onClick={(e) => this.addDigit(9)}>
           9
         </button>
         <Button label='*' click={this.setOperation} operation />
         <Button label='4' click={this.addDigit} />
         <Button label='5' click={this.addDigit} />
-        <Button label='6' click={this.addDigit} />
+        <Button label='6' click={this.addDigit.} />
         <Button label='-' click={this.setOperation} operation />
         <Button label='1' click={this.addDigit} />
+        <Button label='2' click={this.addDigit} />
         <Button label='2' click={this.addDigit} />
         <Button label='3' click={this.addDigit} />
         <Button label='+' click={this.setOperation} operation />
